@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+    /* Ocultar los enlaces del encabezado, excepto la imagen del logo */
+    nav ul {
+        display: none;
+    }
+    
+    /* Centrar la imagen del logo */
+    nav a {
+        text-align: center;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Ocultar el párrafo en la sección de inicio */
+    #inicio .content p {
+        display: none;
+    }
+    
+    /* Asegurar que el título se muestre */
+    #inicio .content h2 {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Cambiar el menú a 2 columnas */
+    #menu .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    /* Ajustar estilos de los elementos del menú */
+    .menu-item {
+        text-align: center; /* Centrar el contenido en las columnas */
+    }
+    
+    .menu-item h3 {
+        font-size: 20px; /* Aumentar el tamaño del título del menú */
+    }
+    
+    .menu-item p {
+        font-size: 16px; /* Ajustar el tamaño del texto del menú */
+    }
+}
